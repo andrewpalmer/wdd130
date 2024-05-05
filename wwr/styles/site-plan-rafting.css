@@ -14,9 +14,9 @@ body {
     --heading-font: 'Briem Hand', serif;
     --paragraph-font: 'Prata', serif;
     
-    --navigation-background-color: #003D3D;
-    --navigation-link-color: #FCE588;
-    --navigation-hover-link-color: #7DC8DA;
+    --nav-background-color: #003D3D;
+    --nav-link-color: #FCE588;
+    --nav-hover-link-color: #7DC8DA;
     --navitation-hover-background-color: black
 }
 h1, h2, h3, h4, h5, h6 {
@@ -33,18 +33,18 @@ p {
 nav {
     display: flex;
     font-size: 1.2rem;
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
 }
 nav a {
     display: block;
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 nav a:link, nav a:visited {
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
 }
 nav a:hover {
-    color: var(--navigation-hover-link-color);
+    color: var(--nav-hover-link-color);
     background-color: var(--navitation-hover-background-color);
 }
