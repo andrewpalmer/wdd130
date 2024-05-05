@@ -8,15 +8,15 @@ body {
 :root {
     --primary-color: #134A67;
     --secondary-color: #003D3D;
-    --accent1-color: #fce588;
+    --accent1-color: #FCE588;
     --accent2-color: #7DC8DA;
 
     --heading-font: 'Briem Hand', serif;
     --paragraph-font: 'Prata', serif;
     
-    --navigation-background-color: var(--secondary-color);
-    --navigation-link-color: var(--accent1-color);
-    --navigation-hover-link-color: var(--accent2-color);
+    --navigation-background-color: #003D3D;
+    --navigation-link-color: #FCE588;
+    --navigation-hover-link-color: #7DC8DA;
     --navitation-hover-background-color: black
 }
 h1, h2, h3, h4, h5, h6 {
