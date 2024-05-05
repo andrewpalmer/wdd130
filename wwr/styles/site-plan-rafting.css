@@ -17,7 +17,7 @@ body {
     --nav-background-color: #003D3D;
     --nav-link-color: #FCE588;
     --nav-hover-link-color: #7DC8DA;
-    --navitation-hover-background-color: black
+    --nav-hover-background-color: black
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -46,5 +46,5 @@ nav a:link, nav a:visited {
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--navitation-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
