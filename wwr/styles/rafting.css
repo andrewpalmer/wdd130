@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Prata&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+:root {
+    --primary-color: #134A67;
+    --secondary-color: #003D3D;
+    --accent1-color: #FCE588;
+    --accent2-color: #7DC8DA;
+
+    --heading-font: 'Briem Hand', serif;
+    --paragraph-font: 'Prata', serif;
+    
+    --nav-background-color: #003D3D;
+    --nav-link-color: #FCE588;
+    --nav-hover-link-color: #7DC8DA;
+    --nav-hover-background-color: black
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    display: flex;
+    font-size: 1.2rem;
+    background-color: var(--nav-background-color);
+}
+nav img {
+    width: 100px;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+footer {
+    clear: both;
+    padding-top: 20px;
+}
+/* class specific */
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 315px;
+    color: var(--primary-color);
+}
+.hero article {
+    position: absolute;
+    padding: 50px;
+    top: 270px;
+    color: var(--secondary-color);
+}
+.hero article img {
+    width: 30%;
+    float: right;
+}
+.adventure {
+    background-color: var(--accent1-color);
+}
+.adventure img {
+    float: left;
+    clear: both;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border: #FCE588 solid 1px;
+}
