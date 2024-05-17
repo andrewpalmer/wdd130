@@ -70,7 +70,6 @@ footer {
 .header {
     width: 200px;
     height: auto;
-    columns: 1/2;
 }
 .hero {
     position: relative;
