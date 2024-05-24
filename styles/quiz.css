@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    background-color: black;
+    color: antiquewhite;
+    max-width: 800px;
+    margin: auto;
+}
+header {
+    padding: 6px;
+    text-align: center;
+    margin: 10px;
+    border-bottom: 2px solid antiquewhite;
+}
+h1 {
+    font-size: 3rem;
+}
+form {
+    max-width: 750px;
+    margin: auto;
+    padding: 5px;
+    border: 2px antiquewhite solid;
+    border-radius: 10px;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .3rem;
+    padding: 7px;
+    border: 1px antiquewhite solid;
+    border-radius: 6px;
+}
+fieldset legend {
+    font-size: 1.5rem;
+    text-align: center;
+}
+button {
+    background-color: antiquewhite;
+    margin: 8px;
+    border: 2px antiquewhite solid;
+    box-shadow: 0 0 5px black;
+}
+button:hover {
+    border:  2px solid white;
+    box-shadow: 0 0 10px white;
+}
+input, textarea, select {
+    padding: .3rem;
+    background-color: #023;
+    color: white;
+}
+footer {
+    text-align: center;
+    font-size: .8rem;
+    padding: 5px;
+    margin: 10px;
+    border-top: 2px antiquewhite solid;
+}
