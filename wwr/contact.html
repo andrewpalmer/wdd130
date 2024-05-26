@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Andrew Palmer | WDD 130</title>
+    <meta name="description" content="White water Rafting Contact us page.">
+    <meta name="author" content="Andrew Palmer">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+        <img class="header" src="images/logo.png" alt="The Company Logo">
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="top">
+            <h1>Contact Us</h1>
+            <h2>Send us a message!</h2>
+        </div>
+        <div class="info">
+            <p>420 blaze-it ave, Utah, USA,</p>
+            <p>555-298-4930</p>
+            <p>DryOar@email.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7544.788354497658!2d-112.84852687286359!3d37.33794539977734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cac7b1ced1a929%3A0xb6cc86eef249a27b!2sBob%20Creek!5e0!3m2!1sen!2sus!4v1716686591494!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <section class="adventure">
+            <h2>Employees</h2>
+            <ul>    
+                <li class="employee"><figure><img src="images/employee1.png" alt="..."><figcaption>Raft Guy, Fredric</figcaption></figure></li>
+                <li class="employee"><figure><img src="images/floofs.jpg" alt="..."><figcaption>CEO, Floofs</figcaption></figure></li>
+                <li class="employee"><figure><img src="images/employee2.jpg" alt="..."><figcaption>Web Dev, Andrew</figcaption></figure></li>
+            </ul>
+        </section>
+        <div class="top">
+            <form>
+                <fieldset>
+                    <legend>Message Form</legend>
+                    <div>
+                        <h3>User Information</h3>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name"><br>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <h3>Message</h3>
+                        <label for="General">General Inquiry</label>
+                        <input type="radio" id="General" name="reason" value="general"><br>
+
+                        <label for="Reservation">Reservation Questions</label>
+                        <input type="radio" id="Reservation" name="reason" value="Reservation"><br>
+
+                        <Label for="website">Website Suggestion</Label>
+                        <input type="radio" id="website" name="reason" value="website"><br>
+                  
+                        <Label for="message"></Label>
+                        <textarea id="message" rows="4" placeholder="Type message here" name="user message"></textarea>
+                    </div>
+                    <div>
+                        <label for="news">Please Subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="news" name="newsletter">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Message</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;Andrew Palmer, 2024, Utah, USA,</p>
+        <nav class="foot">
+            <a href="https://facebook.com"><img src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://x.com"><img src="images/Xlogo.png" alt="X"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+        </nav>
+    </footer>
+  </body>
+</html>
