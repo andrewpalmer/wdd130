@@ -91,11 +91,11 @@ form {
 button {
     margin: 5px;
     border: var(--secondary-color) solid 2px;
-    box-shadow: 0 0 10 var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
 }
 button:hover {
     border: #FCE588 solid 2px;
-    box-shadow: 0 0 10 white;
+    box-shadow: 0 0 10px white;
 }
 /* class specific */
 .header {
