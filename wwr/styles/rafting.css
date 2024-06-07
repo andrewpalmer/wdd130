@@ -6,7 +6,7 @@ body {
     padding: 20px;
     background-color: black;
     color: white;
-    margin: auto;
+    margin: 0 auto;
 }
 :root {
     --primary-color: #134A67;
@@ -27,7 +27,7 @@ h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 header{
-    margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 200px 1fr;
     padding: 20px;
@@ -36,6 +36,10 @@ header{
 }
 p {
     padding: 25px;
+}
+a {
+    text-decoration: none;
+    color: var(--accent2-color);
 }
 nav {
     display: flex;
@@ -88,6 +92,11 @@ form {
     padding: 16px;
     border: #003D3D solid 3px;
 }
+legend {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border-bottom: 1px solid var(--primary-color);
+}
 button {
     margin: 5px;
     border: var(--secondary-color) solid 2px;
@@ -96,6 +105,15 @@ button {
 button:hover {
     border: #FCE588 solid 2px;
     box-shadow: 0 0 10px white;
+}
+table {
+    padding: 40px;
+    background-color: var(--accent1-color);
+    color: #134A67;
+    display: block;
+}
+table > caption {
+    background-color: #FCE588;
 }
 /* class specific */
 .header {
@@ -187,4 +205,96 @@ button:hover {
 }
 .top h2 {
     color: black
+}
+.title {
+    background-color: #FCE588;
+    margin: 0;
+    padding: 5px;
+}
+.title a h1{
+    background-color: var(--accent2-color) ;
+    color: #003D3D;
+    border: #FCE588 5px solid;
+    border-radius: 1px 60px 1px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0;
+}
+.title a p{
+    background-color: var(--accent2-color) ;
+    color: #003D3D;
+    border: #FCE588 5px solid;
+    border-radius: 1px 60px 1px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0;
+}
+.title a {
+    text-decoration: none;
+}
+.title a:hover h1 {
+    border: var(--nav-background-color) 5px solid;
+}
+.title a:hover p {
+    border: var(--nav-background-color) 5px solid;
+}
+.trips {
+    margin: 0 auto;
+    padding: 3px;
+    background-color: #FCE588;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.trips div {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 30px 1fr 200px;
+    text-align: center;
+    border: #FCE588 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #003D3D;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.trips h2 {
+    color: #FCE588;
+    background-color: #134A67;
+    padding: 4px 1rem;
+    margin-top: 50px;
+    border: #003D3D 1px solid;
+    border-radius: 10px 20px 10px;
+    font: "Briem Hand";
+    font-size: 1.6rem;
+}
+.trips img {
+    height: auto;
+    width: 200px;
+    border: #134A67 2px solid;
+    border-radius: 15px;
+    box-shadow: 0 0 25px 10px #134A67;
+}
+.absolute {
+    position: relative;
+}
+.absolute img {
+    width: 960px;
+    height: auto;
+}
+.absolute h1 {
+    position: absolute;
+    z-index: 1;
+    left: 360px;
+    font-size: 3rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.news {
+    background-color: #FCE588;
 }
